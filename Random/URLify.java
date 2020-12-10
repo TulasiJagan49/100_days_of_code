@@ -30,7 +30,7 @@ public class URLify {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         int i = Integer.parseInt(sc.nextLine());
-        System.out.println(url("Mr John Smith      ".toCharArray(), 13));
+        System.out.println(url(str.toCharArray(), i));
         sc.close();
     }
 }
